@@ -1,8 +1,8 @@
-#  How to query an R project with flowR
+# How to query an R project with flowR
 
 This is a sample project that demonstrates how to use the `flowR` library to analyze and query R projects. Follow the steps below to set up and run the project.
 
-PLease note that this is a minimal example, with bigger files JavaScript's `JSON.stringify` might encounter a too-long string, in such cases it is up tto you to serialize/compress the results (check out the flowR wiki, we offer several ways to handle large results).
+Please note that this is a minimal example, with bigger files JavaScript's `JSON.stringify` might encounter a too-long string, in such cases it is up to you to serialize/compress the results (check out the flowR wiki, we offer several ways to handle large results).
 
 ## Quickstart
 
