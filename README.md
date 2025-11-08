@@ -9,8 +9,8 @@ Please note that this is a minimal example, with bigger files JavaScript's `JSON
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/flowr-analysis/query-project-sample.git
-   cd query-project-sample
+   git clone https://github.com/flowr-analysis/sample-analyzer-project-query.git
+   cd sample-analyzer-project-query
    ```
 
 2. Install the dependencies:
