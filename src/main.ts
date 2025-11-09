@@ -14,8 +14,6 @@ async function main(folder: string, outputFile: string) {
       .setEngine('tree-sitter')
       .add(fileProtocol + folder)
       .build();
-      
-   await analyzer.runFull();
 
    try {
       const time = Date.now();
