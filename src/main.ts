@@ -12,8 +12,8 @@ async function main(folder: string, outputFile: string) {
 
    const analyzer = await new FlowrAnalyzerBuilder()
       .setEngine('tree-sitter')
-      .add(fileProtocol + folder)
       .build();
+   analyzer.addRequest(fileProtocol + folder);
 
    try {
       const time = Date.now();
