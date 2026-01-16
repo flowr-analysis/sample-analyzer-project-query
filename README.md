@@ -4,6 +4,13 @@ This is a sample project that demonstrates how to use the [`flowR`](https://gith
 
 Please note that this is a minimal example, with bigger files JavaScript's `JSON.stringify` might encounter a too-long string, in such cases it is up to you to serialize/compress the results (check out the flowR wiki, we offer several ways to handle large results).
 
+If you want to try this out with docker, you can run the following in your directory (or add paths to your liking)
+to use a deployed [docker image](https://hub.docker.com/r/eagleoutice/sample-flowr-project-query):
+
+```bash
+ docker run -it --rm -u "$(id -u):$(id -g)" -v "$PWD":"/data" eagleoutice/sample-flowr-project-query:latest /data/sample-project /data/output.json
+ ```
+
 ## Quickstart
 
 1. Clone the repository:

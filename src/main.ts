@@ -29,7 +29,7 @@ async function main(folder: string, outputFile: string) {
    }
 }
 if(process.argv.length < 4) {
-   console.error('Usage: ts-node src/main.ts <folder> <output-file>');
+   console.error('Usage: run <folder> <output-file>');
    process.exit(1);
 }
 
