@@ -14,7 +14,6 @@ async function main(folder: string, outputFile: string) {
       .setEngine('tree-sitter')
       .build();
    analyzer.addRequest(fileProtocol + folder);
-
    try {
       const time = Date.now();
       const results = await analyzer.query(query);
@@ -29,7 +28,7 @@ async function main(folder: string, outputFile: string) {
    }
 }
 if(process.argv.length < 4) {
-   console.error('Usage: run <folder> <output-file>');
+   console.error('Usage: ts-node src/main.ts <folder> <output-file>');
    process.exit(1);
 }
 
